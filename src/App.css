@@ -1,5 +1,65 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  background: linear-gradient(
+    18deg,
+    rgba(71, 79, 159, 1) 0%,
+    rgba(164, 35, 233, 0.9948354341736695) 100%
+  );
+  width: 100vw;
+  position: fixed;
+  height: 100vh;
+}
+
+img {
+  width: 30rem;
+  border-radius: 7px 0 0 7px;
+}
+
+button {
+  padding: 10px 26px;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  background: #9576d3;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+section {
+  /* gap: 4rem;
+  margin-top: 8rem;
+   margin: 75px auto; 
+  display: flex;
+  justify-content: center;
+  background-color: #6e6868;
+  width: 53rem;
+  align-items: center; */
+  border-radius: 7px;
+  gap: 3rem;
+  /* margin-top: 8rem; */
+  /* margin: auto; */
+  display: flex;
+  /* justify-content: center; */
+  background-color: #ffff;
+  width: 54rem;
+  align-items: center;
+  margin: 8rem auto;
+}
+
+.login {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 16rem;
+  padding: 10px;
+  border: 0;
+  border-radius: 3px;
+  background: #d9dbdd;
 }
 
 .App-logo {
